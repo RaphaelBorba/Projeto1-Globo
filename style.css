@@ -1,0 +1,229 @@
+*{
+    font-family: 'Encode Sans', sans-serif;
+}
+
+                                                /* Header da Página*/
+
+/*Logo*/
+
+header{
+    width: 95%;
+    margin-inline: auto;
+}
+.brand{
+    text-align: center;
+    margin: 20px;
+}
+.brand img{
+    width: 170px;
+}
+
+/* Sub títulos */
+
+.sub-titles{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+.sub-titles h2:hover{
+    cursor: pointer;
+    filter: brightness(120%);
+}
+.sub-titles h2:nth-child(1){
+    color:#C3170C;
+}
+.sub-titles h2:nth-child(2){
+    color: #1E4B9B;
+}
+.sub-titles h2:nth-child(3){
+    color: #006766;
+}
+.sub-titles h2:nth-child(4){
+    color: #07AA47;
+}
+.sub-titles h2:nth-child(5){
+    color: #E3662B;
+}
+.sub-titles h2:nth-child(6){
+    color: #FB0735;
+}
+.sub-titles h2:nth-child(7){
+    color: #FF75BB;
+}
+.sub-titles h2:nth-child(8){
+    color: #EC7D00;
+}
+.sub-titles h2:nth-child(9){
+    color: #323333;
+}
+.sub-titles h2:nth-child(10){
+    color: #A81D83;
+}
+
+                                                 /* Main da Página*/
+
+                     /*Notícias Vermelhas*/
+
+/*Notícia Pincipal*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+main{
+    
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+.red-news{
+    width: 50%;
+}
+.main-news{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #EBEDEF;
+    margin-bottom: 30px;
+}
+.main-news a{
+    text-decoration: none;
+    color: #C4160C;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.main-news p{
+    font-size: 18px;
+    color: #303134;
+    font-weight:500;
+    margin-block: 10px;
+}
+
+/*Notícias vermelhas com imagens*/
+
+.pic-news{
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px solid #EBEDEF;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.pic-news div{
+    width: 193px;
+}
+.pic-news div img{
+    width: 193px;
+    border-radius: 12px;
+}
+.pic-news div h3{
+    margin-block: 15px;
+}
+.pic-news div h3:nth-child(2){
+    color: #C4170C;
+}
+.pic-news div h3:nth-child(3){
+    color: #2F3134;
+    font-size: 20px;
+}
+.pic-news div h3:nth-child(4){
+    
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*Apenas Notícias*/
+
+.only-news{
+    display: flex;
+    justify-content:space-between
+}
+.only-news div{
+    width: 193px;
+}
+.only-news div h3{
+    margin-block: 15px;
+}
+.only-news div h3:nth-child(1){
+    color: #C4170C;
+}
+.only-news div h3:nth-child(2){
+    color: #2F3134;
+    font-size: 20px;
+}
+.only-news div h3:nth-child(3){
+    font-weight: 400;
+    font-size: 14px;
+}
+
+                        /*Notícias Verdes*/
+
+.green-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #EBEDEF;
+}
+.green-news div{
+    width: 240px;
+}
+.green-news div img{
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+.green-news div h3{
+    margin-block: 15px;
+}
+.green-news div h3:nth-child(2){
+    color: #16AE54;
+}
+.green-news div h3:nth-child(3){
+    color: #2F3134;
+    font-size: 20px;
+}
+.green-news div h3:nth-child(4){
+    font-weight: 400;
+    font-size: 14px;
+}
+
+                        /*Notícias Amarelas*/
+
+.yellow-news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    padding-left: 30px;
+    border-left: 1px solid #EBEDEF;
+}
+.yellow-news div{
+    width: 240px;
+}
+.yellow-news div img{
+    width: 240px;
+    height: 128px;
+    border-radius: 12px;
+}
+.yellow-news div h3{
+    margin-block: 15px;
+}
+.yellow-news div h3:nth-child(2){
+    color: #EC8006;
+}
+.yellow-news div h3:nth-child(3){
+    color: #2F3134;
+    font-size: 20px;
+}
+.yellow-news div h3:nth-child(4){
+    font-weight: 400;
+    font-size: 14px;
+}
+.yellow-news div h3:nth-child(5){
+    font-weight: 400;
+    font-size: 14px;
+}
